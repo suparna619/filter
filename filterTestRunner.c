@@ -6,8 +6,8 @@ typedef struct{
 } Test;
 
 //code to be updated starts
-TestFn setup,tearDown,fixtureSetup,fixtureTearDown,test_for_find_numbers_greater_or_equal_to_ten;
-Test test[] = {"test_for_find_numbers_greater_or_equal_to_ten",test_for_find_numbers_greater_or_equal_to_ten};
+TestFn setup,tearDown,fixtureSetup,fixtureTearDown,test_for_find_numbers_greater_or_equal_to_ten,test_for_find_numbers_less_than_or_equal_to_ten,test_for_find_character_which_are_greater_than_k,test_to_find_which_string_element_does_not_contain_u;
+Test test[] = {"test_for_find_numbers_greater_or_equal_to_ten",test_for_find_numbers_greater_or_equal_to_ten,"test_for_find_numbers_less_than_or_equal_to_ten",test_for_find_numbers_less_than_or_equal_to_ten,"test_for_find_character_which_are_greater_than_k",test_for_find_character_which_are_greater_than_k,"test_to_find_which_string_element_does_not_contain_u",test_to_find_which_string_element_does_not_contain_u};
 char testFileName[] = {"filterTest.c"};
 void _setup(){/*CALL_SETUP*/}
 void _tearDown(){/*CALL_TEARDOWN*/}
